@@ -1,0 +1,81 @@
+
+
+.carouselmain {
+    display: grid;
+    grid-template-columns: 200px 551px;
+    grid-template-rows: repeat(13, 20px);
+    grid-column-gap: 40px;
+    grid-row-gap: 0px;
+    justify-content: center;
+    align-items: center;
+    }
+    
+.carouselimg { 
+    grid-area: 1 / 1 / 12 / 2;
+    display: grid;
+    justify-content: center;
+    align-items: end; 
+}
+
+
+.carouselname {
+    grid-area: 12 / 1 / 13 / 2;
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+    color: var(--grey-grey-09, #191919);
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.42px; 
+}
+
+
+.carouseltitle {
+    grid-area: 13 / 1 / 14 / 2;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: var(--grey-gret-05, #BBB);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+    letter-spacing: -0.28px;
+}
+
+
+.rating { 
+    grid-area: 1 / 2 / 2 / 3; 
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+}
+
+.commentsection { 
+    grid-area: 2 / 2 / 14 / 3;
+    display: grid;
+    justify-content: center;
+    align-items: start;
+    text-align: start; 
+    color: var(--grey-gret-07, #545454);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -0.36px;
+    margin-top: 20px; 
+}
+
+.rating {
+    display: grid;
+    justify-content: start;
+    align-items: start;
+    padding-top: 140px;
+    width: 132px !important;
+
+}
+

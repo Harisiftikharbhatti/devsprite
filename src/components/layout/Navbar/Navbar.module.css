@@ -1,0 +1,60 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width : auto;
+    height: 90px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.32px;
+}
+.menuBar {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #074F65;
+}
+
+.content li {
+    padding: 6px 16px;
+}
+
+.content li:hover {
+    background: rgba(0, 196, 255,0.10);
+    border-radius: 12px;
+
+}
+
+.contactUs {
+    color: var(--pink-pink-06, #B10B59);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.32px;
+    padding: 12px 24px;
+    border-radius: 100px;
+    border: 1px solid var(--pink-pink-06, #B10B59);
+}

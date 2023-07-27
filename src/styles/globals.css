@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainContent {
+    width: 1440px;
+    height: 100%;
+    margin: auto;
+}
+
+.carousel-root {
+    max-width: 1064px;
+    max-height: 480px;
+}
+
+.carousel .thumbs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    object-fit: contain;
+    width: 186px;
+    height: 36px;
+    margin: 0px;
+}
+
+.carousel .thumbs-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel .thumb {
+    border-color: transparent !important;
+}
+
+.carousel .carousel-slider .control-arrow{
+    color: transparent !important;
+}
+
+
+.img, video {
+    max-width: none;
+}
